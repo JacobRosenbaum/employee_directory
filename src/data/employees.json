@@ -1,0 +1,79 @@
+[
+{
+    "id": 1,
+    "firstName": "Phil",
+    "lastName": "Pipes",
+    "title": "Marketing Director", 
+    "department": "Marketing"
+},
+{
+    "id": 2,
+    "firstName": "Jenny",
+    "lastName": "Block",
+    "title": "Marketing Associate", 
+    "department": "Marketing"
+},
+{
+    "id": 3,
+    "firstName": "Pete",
+    "lastName": "Za",
+    "title": "HR Manager", 
+    "department": "HR"
+},
+{
+    "id": 4,
+    "firstName": "Joe",
+    "lastName": "Mama",
+    "title": "SVP HR", 
+    "department": "HR"
+},
+{
+    "id": 5,
+    "firstName": "Willis",
+    "lastName": "Bout",
+    "title": "SVP Marketing", 
+    "department": "Marketing"
+},
+{
+    "id": 6,
+    "firstName": "Alice",
+    "lastName": "Wonder",
+    "title": "Salesperson", 
+    "department": "Sales"
+},
+{
+    "id": 7,
+    "firstName": "Lisa",
+    "lastName": "Bisa",
+    "title": "Sales Director", 
+    "department": "Sales"
+},
+{
+    "id": 8,
+    "firstName": "John",
+    "lastName": "Does",
+    "title": "Salesperson", 
+    "department": "Sales"
+},
+{
+    "id": 9,
+    "firstName": "Willie",
+    "lastName": "Nelson",
+    "title": "Receptionist", 
+    "department": "Administration"
+},
+{
+    "id": 10,
+    "firstName": "Lala",
+    "lastName": "Venison",
+    "title": "CEO", 
+    "department": "Chairman's"
+},
+{
+    "id": 11,
+    "firstName": "Jacob",
+    "lastName": "Rosenbaum",
+    "title": "Chairmans of the Board", 
+    "department": "Chairman's"
+}
+]

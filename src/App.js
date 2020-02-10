@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+
+import EmpContainer from "./components/EmpContainer";
 
 function App() {
-    return <Navbar / > ;
+    return <EmpContainer / > ;
 }
 
 export default App;
