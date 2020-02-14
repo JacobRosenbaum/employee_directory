@@ -5,7 +5,7 @@ function Navbar() {
     return (
 <nav style={{textAlign:'center', marginBottom: '30px', backgroundColor: 'burlywood', padding: '35px '}} >
    <b> <span style={{ fontSize: '30px'}}>
-    Employee Tracker 
+    Employee Directory
     </span>   
     </b>
     </nav>
