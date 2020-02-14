@@ -73,7 +73,42 @@
     "id": 11,
     "firstName": "Jacob",
     "lastName": "Rosenbaum",
-    "title": "Chairmans of the Board", 
+    "title": "Chairman of the Board", 
     "department": "Chairman's"
+},
+{
+    "id": 12,
+    "firstName": "Dick",
+    "lastName": "Tate",
+    "title": "Camera Operator", 
+    "department": "Film"
+},
+{
+    "id": 13,
+    "firstName": "Justin",
+    "lastName": "Thyme",
+    "title": "CFO", 
+    "department": "Chairman's"
+},
+{
+    "id": 14,
+    "firstName": "Horace",
+    "lastName": "Cope",
+    "title": "Boom Operator", 
+    "department": "Film"
+},
+{
+    "id": 15,
+    "firstName": "Joe",
+    "lastName": "King",
+    "title": "Actor", 
+    "department": "Film"
+},
+{
+    "id": 16,
+    "firstName": "Kay",
+    "lastName": "Oss",
+    "title": "Janitor", 
+    "department": "Custodial"
 }
 ]

@@ -6,11 +6,15 @@ import SearchForm from "./SearchForm";
 import EmpInfo from "./EmpInfo";
 import EmpList from "../data/employees.json";
 import Navbar from "./Navbar";
+import SortOrder from "./SortOrder";
+import SortKey from "./SortKey";
+import "../styles/style.css"
+
 
 class EmpContainer extends Component {
   state = {
     result: [],
-    search: ""
+    search: "", 
   };
 
   componentDidMount() {
@@ -18,9 +22,9 @@ class EmpContainer extends Component {
   }
 
   searchEmp = () => {
-    const searchQuery = this.state.search.trim();
-    const searchResults = EmpList.filter((emp) => emp.firstName === searchQuery);
-    this.setState({ 'result': searchResults });
+    const searchEmployees = this.state.search.trim();
+    const searchResultsEmp = EmpList.filter((emp) => emp.firstName === searchEmployees);
+    this.setState({ 'result': searchResultsEmp });
   };
 
   handleInputChange = event => {
@@ -31,33 +35,43 @@ class EmpContainer extends Component {
     });
   };
 
-  handleFormSubmit = event => {
+  handleSubmit = event => {
     event.preventDefault();
     this.searchEmp();
   };
 
   render() {
     return (
-      <Container>
-        <Row>
-          <Col size="md-4" />
-          <Col size="md-4">
-            <SearchForm
+        <body>
+             <Navbar /> 
+      <Container >
+         
+        <Row >
+            <Col size="md-3">
+            <SearchForm style={{marginTop: '30px'}}
               searchtype="Employee"
               value={this.state.search}
               handleInputChange={this.handleInputChange}
-              handleFormSubmit={this.handleFormSubmit}
+              handleFormSubmit={this.handleSubmit}
+              
             />
+            </Col>
+          <Col size="md-6">
+          <EmpInfo search={this.state.search} sortOrder={parseInt(this.state.sortOrder)} sortKey={this.state.sortKey}/>
           </Col>
-          <Col size="md-4" />
+          <Col size="md-3">
+            <SortKey handleInputChange={this.handleInputChange}
+             />
+             <br/>
+               <SortOrder handleInputChange={this.handleInputChange} />  
+          </Col>
+         
         </Row>
         <Row>
-          <Col size="md-12">
-            <hr />
-            <EmpInfo search={this.state.search} />
-          </Col>
+         
         </Row>
       </Container >
+      </body>
     );
   }
 }

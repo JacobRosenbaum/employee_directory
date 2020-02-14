@@ -1,0 +1,15 @@
+body{
+    background-image: url(../images/vintage-wallpaper.png);
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    
+}
+
+.card{
+    border-radius: 25px; 
+    background-color: burlywood;
+}
+
+#table{
+    color: white;
+border: 1px white solid;
+}

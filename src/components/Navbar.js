@@ -1,10 +1,13 @@
 import React from "react"; 
+import "../styles/style.css"
+
 function Navbar() {
     return (
-<nav className = "navbar navbar-dark bg-dark" >
-    <span className = "navbar-text">
+<nav style={{textAlign:'center', marginBottom: '30px', backgroundColor: 'burlywood', padding: '35px '}} >
+   <b> <span style={{ fontSize: '30px'}}>
     Employee Tracker 
     </span>   
+    </b>
     </nav>
     );
 }
