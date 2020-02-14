@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b3cca39.chunk.css",
+    "main.js": "/static/js/main.6c415abd.chunk.js",
+    "main.js.map": "/static/js/main.6c415abd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d50cb326.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d50cb326.js.map",
+    "static/js/2.d7d99a60.chunk.js": "/static/js/2.d7d99a60.chunk.js",
+    "static/js/2.d7d99a60.chunk.js.map": "/static/js/2.d7d99a60.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b8811d1a83b74870494285793cd06a87.js": "/precache-manifest.b8811d1a83b74870494285793cd06a87.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0b3cca39.chunk.css.map": "/static/css/main.0b3cca39.chunk.css.map",
+    "static/js/2.d7d99a60.chunk.js.LICENSE.txt": "/static/js/2.d7d99a60.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/static/media/vintage-wallpaper.78ee9c8a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d50cb326.js",
+    "static/js/2.d7d99a60.chunk.js",
+    "static/css/main.0b3cca39.chunk.css",
+    "static/js/main.6c415abd.chunk.js"
+  ]
+}
