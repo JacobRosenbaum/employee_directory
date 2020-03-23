@@ -13,3 +13,16 @@ body{
     color: white;
 border: 1px white solid;
 }
+
+@media (max-width: 1202px){
+    .formInfo{
+        padding-left: 45px !important;
+    }
+}@media (max-width: 992px){
+    .formInfo{
+        padding-left: 10px !important;
+    }
+    .card-header{
+        font-size: 1.5rem !important
+    }
+}

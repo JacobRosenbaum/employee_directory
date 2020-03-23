@@ -14,7 +14,7 @@ import "../styles/style.css"
 class EmpContainer extends Component {
   state = {
     result: [],
-    search: "", 
+    search: "",
   };
 
   componentDidMount() {
@@ -42,35 +42,31 @@ class EmpContainer extends Component {
 
   render() {
     return (
-        <body>
-             <Navbar /> 
-      <Container >
-         
-        <Row >
+      <body>
+        <Navbar />
+        <Container >
+          <Row >
             <Col size="md-3">
-            <SearchForm style={{marginTop: '30px'}}
-              searchtype="Employee"
-              value={this.state.search}
-              handleInputChange={this.handleInputChange}
-              handleFormSubmit={this.handleSubmit}
-              
-            />
+              <SearchForm style={{ marginTop: '30px' }}
+                searchtype="Employee"
+                value={this.state.search}
+                handleInputChange={this.handleInputChange}
+                handleFormSubmit={this.handleSubmit}
+              />
             </Col>
-          <Col size="md-6">
-          <EmpInfo search={this.state.search} sortOrder={parseInt(this.state.sortOrder)} sortKey={this.state.sortKey}/>
-          </Col>
-          <Col size="md-3">
-            <SortKey handleInputChange={this.handleInputChange}
-             />
-             <br/>
-               <SortOrder handleInputChange={this.handleInputChange} />  
-          </Col>
-         
-        </Row>
-        <Row>
-         
-        </Row>
-      </Container >
+            <Col size="md-6">
+              <EmpInfo search={this.state.search} sortOrder={parseInt(this.state.sortOrder)} sortKey={this.state.sortKey} />
+            </Col>
+            <Col size="md-3">
+              <SortKey handleInputChange={this.handleInputChange}
+              />
+              <br />
+              <SortOrder handleInputChange={this.handleInputChange} />
+            </Col>
+          </Row>
+          <Row>
+          </Row>
+        </Container >
       </body>
     );
   }

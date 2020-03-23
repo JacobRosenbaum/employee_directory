@@ -1,7 +1,6 @@
 
 import React from "react";
-
-
+import "../styles/style.css"
 
 function SortOrder(props) {
   return(
@@ -10,11 +9,11 @@ function SortOrder(props) {
       <div className="card-header">
         <h2>Order</h2>
       </div>
-      <form>
+      <form class = "formInfo"  style = {{textAlign: "left", marginLeft: "10px", paddingLeft: "65px" }}>
         <input onChange={props.handleInputChange} type="radio" id="1" name="sortOrder" value="1" />
-        <label for="ascending">  Ascending</label><br />
+        <label style = {{marginLeft: "4px"}} for="ascending">  Ascending</label><br />
         <input onChange={props.handleInputChange} type="radio" id="-1" name="sortOrder" value="-1" />
-        <label for="descending">  Descending</label>
+        <label style = {{marginLeft: "4px"}} for="descending">  Descending</label>
       </form>
     </div>
   </div>)
